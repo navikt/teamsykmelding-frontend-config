@@ -1,0 +1,1 @@
+# teamsykmelding-frontend-config
