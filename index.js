@@ -1,6 +1,12 @@
 module.exports = {
   extends: ["plugin:@typescript-eslint/recommended", "prettier"],
-  plugins: ["prettier", "testing-library", "postcss-modules"],
+  plugins: [
+    "prettier",
+    "testing-library",
+    "postcss-modules",
+    "react-hooks",
+    "import",
+  ],
   rules: {
     "prettier/prettier": "warn",
     "import/order": ["warn", { "newlines-between": "always" }],
