@@ -1,11 +1,29 @@
 {
-  "name": "@navikt/teamsykmelding-frontend-config",
+  "name": "@navikt/eslint-config-teamsykmelding",
   "packageManager": "yarn@3.2.0",
-  "version": "0.10.0",
+  "version": "0.12.0",
   "files": [
-    "prettier"
+    "prettier",
+    "index.js"
   ],
+  "scripts": {
+    "test": "eslint --config=index.js",
+    "test:next": "eslint --config=next.js"
+  },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-postcss-modules": "^2.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-testing-library": "^5.5.0",
     "prettier": "^2.6.2"
+  },
+  "peerDependencies": {
+    "typescript": ">=4"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
   }
 }
