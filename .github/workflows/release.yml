@@ -22,9 +22,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - run: yarn --immutable
-      - run: |
-          yarn test
-          yarn test:next
+      - run: yarn test
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

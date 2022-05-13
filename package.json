@@ -7,8 +7,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "eslint --config=index.js",
-    "test:next": "eslint --config=next.js"
+    "test": "eslint --config=index.js"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.23.0",
