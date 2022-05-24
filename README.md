@@ -20,6 +20,10 @@ I `package.json`:
 
 Bruk eslint config for nextjs i prosjektet ditt:
 
+Legg til next lint config:
+
+`yarn add -D eslint-config-next`
+
 I `package.json`:
 
 ```json
