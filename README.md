@@ -2,7 +2,7 @@
 
 ## Installer
 
-`yarn add -D @navikt/teamsykmelding-frontend-config`
+`yarn add -D @navikt/eslint-config-teamsykmelding`
 
 ## eslint
 
