@@ -65,7 +65,7 @@ __metadata:
     eslint-plugin-import: ^2.26.0
     eslint-plugin-postcss-modules: ^2.0.0
     eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-hooks: ^4.5.0
     eslint-plugin-testing-library: ^5.9.1
     prettier: ^2.7.1
     typescript: ^4.8.4
@@ -932,7 +932,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.6.0":
+"eslint-plugin-react-hooks@npm:^4.5.0":
   version: 4.6.0
   resolution: "eslint-plugin-react-hooks@npm:4.6.0"
   peerDependencies:
