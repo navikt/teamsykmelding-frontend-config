@@ -8,6 +8,7 @@ module.exports = {
     "import",
   ],
   rules: {
+    "no-console": "warn",
     "prettier/prettier": "warn",
     "import/order": ["warn", { "newlines-between": "always" }],
     "react-hooks/exhaustive-deps": [
