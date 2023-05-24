@@ -21,6 +21,13 @@ module.exports = {
     ],
     "postcss-modules/no-undef-class": "error",
     "postcss-modules/no-unused-class": "warn",
+    "react/jsx-curly-brace-presence": [
+      "warn",
+      {
+        props: "never",
+        children: "never",
+      },
+    ],
   },
   overrides: [
     {
