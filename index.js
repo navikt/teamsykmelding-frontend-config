@@ -3,7 +3,6 @@ module.exports = {
   plugins: [
     "prettier",
     "testing-library",
-    "postcss-modules",
     "react-hooks",
     "import",
   ],
@@ -35,10 +34,5 @@ module.exports = {
         "testing-library/no-debugging-utils": "warn",
       },
     },
-  ],
-  settings: {
-    "postcss-modules": {
-      exclude: ["**/node_modules/**/*", "**/global.css"],
-    },
-  },
+  ]
 };
