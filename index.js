@@ -1,5 +1,10 @@
 module.exports = {
   extends: ["plugin:@typescript-eslint/recommended", "plugin:react/recommended", "prettier"],
+  settings: {
+    "react": {
+      "version": "detect"
+    }
+  },
   plugins: [
     "prettier",
     "testing-library",
