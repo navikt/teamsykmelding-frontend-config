@@ -4,6 +4,10 @@ on: [push]
 env:
   NPM_AUTH_TOKEN: ${{ secrets.READER_TOKEN }}
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
