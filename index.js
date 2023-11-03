@@ -1,20 +1,32 @@
 module.exports = {
-  extends: ["plugin:@typescript-eslint/recommended", "plugin:react/recommended", "prettier"],
-  settings: {
-    "react": {
-      "version": "detect"
-    }
-  },
-  plugins: [
+  extends: [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
     "prettier",
-    "testing-library",
-    "react-hooks",
-    "import",
   ],
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
+  plugins: ["prettier", "testing-library", "react-hooks", "import"],
   rules: {
     "no-console": "warn",
     "prettier/prettier": "warn",
-    "import/order": ["warn", { "newlines-between": "always" }],
+    "import/order": [
+      "warn",
+      {
+        groups: [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+        ],
+        "newlines-between": "always",
+      },
+    ],
     "react-hooks/exhaustive-deps": [
       "warn",
       { additionalHooks: "(useUpdateBreadcrumbs)" },
@@ -39,5 +51,5 @@ module.exports = {
         "testing-library/no-debugging-utils": "warn",
       },
     },
-  ]
+  ],
 };
