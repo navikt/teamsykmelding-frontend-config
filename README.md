@@ -12,9 +12,9 @@ I `package.json`:
 
 ```json
 {
-    "eslintConfig": {
-      "extends": "@navikt/eslint-config-teamsykmelding"
-    }
+  "eslintConfig": {
+    "extends": "@navikt/eslint-config-teamsykmelding"
+  }
 }
 ```
 
@@ -28,12 +28,11 @@ I `package.json`:
 
 ```json
 {
-    "eslintConfig": {
-       "extends": ["@navikt/eslint-config-teamsykmelding", "next/core-web-vitals"]
-    }
+  "eslintConfig": {
+    "extends": ["@navikt/eslint-config-teamsykmelding", "next/core-web-vitals"]
+  }
 }
 ```
-
 
 ## prettier
 
@@ -43,6 +42,6 @@ I `package.json`:
 
 ```json
 {
-    "prettier": "@navikt/eslint-config-teamsykmelding/prettier",
+  "prettier": "@navikt/eslint-config-teamsykmelding/prettier"
 }
 ```
