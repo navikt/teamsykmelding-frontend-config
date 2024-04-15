@@ -27,6 +27,7 @@ module.exports = {
         "newlines-between": "always",
       },
     ],
+    "import/no-extraneous-dependencies": "error",
     "react-hooks/exhaustive-deps": [
       "warn",
       { additionalHooks: "(useUpdateBreadcrumbs)" },
